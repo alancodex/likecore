@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+  background-color:#292626 ;
+  }
+  header{
+  width: 100%;
+  background-color:#000000; 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 3px; 
+  }
+   
+  .container-logo{
+    display: flex;
+  }
+  
+  .logo-imagem{
+    margin-left: 0px;
+   }
+  
+  .menu{
+    margin-left: 70px;
+  
+  }
+  
+  .menu li{
+    display: inline-block;
+    margin: 0 16px;
+  }
+  .menu li a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 10px;
+    border-radius: 15px;
+  }
+  
+  .menu li a:hover{
+    background-color:#0c3a9b;
+  }
+
+  
+     .search-container {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+    }
+    
+    .search-input {
+      border: none;
+      outline: none;
+      padding: 8px;
+      padding-left: 30px;
+      border-radius: 20px;
+      width: 620px;
+    }
+    
+    .search-button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 20px;
+      padding: 8px 12px;
+      cursor: pointer;
+    }
+    
+    .search-container img{
+      align-items: center;
+    }
+   
+    .container23 {
+      border-radius: 5px;
+      margin-bottom: 770px;
+    }
+
+    .container23 img {
+      border-radius: 10px;
+      flex-direction: row;
+      display: flex;
+      align-items: flex-start;
+      margin-left: 30px;
+    }
+
+    .container23 li {
+      margin-top: 30px;
+    }
+
+
+
+    .container24 {
+      border-radius: 5px;
+      margin-bottom: 500px;
+    }
+
+    .container24 img {
+      border-radius: 10px;
+      flex-direction: row;
+      display: flex;
+      align-items: center;
+      margin-left: 30px;
+    }
+
+    .container24 li {
+      margin-top: 30px;
+    }
+
+    
+    .container25 {
+      border-radius: 5px;
+      margin-bottom: 1100px;
+    }
+
+    .container25 img {
+      border-radius: 10px;
+      flex-direction: row;
+      display: flex;
+      align-items: center;
+      margin-left: 30px;
+    }
+
+    .container25 li {
+      margin-top: 30px;
+    }
+
+    .container26 {
+      border-radius: 5px;
+      margin-bottom: 585px;
+    }
+
+    .container26 img {
+      border-radius: 10px;
+      flex-direction: row;
+      display: flex;
+      align-items: center;
+      margin-left: 30px;
+    }
+
+    .container26 li {
+      margin-top: 10px;
+    }
+
+    .containerp {
+      flex-direction: row;
+      display: flex;
+      align-items: center;
+      margin-left: 70px;
+      margin-top: 20px;
+
+    }
+
+    .containerp li {
+      margin-left: 40px;
+       list-style-type: none;
+    }
+
+    .containerp img {
+      border: 2px solid;
+      border-color: black;
+      cursor: zoom-in;
+      transition: transform 0.5s;
+      width: 270px;
+    }
+
+    .containerp img:hover {
+      transform: scale(1.2);
+    }
+
+    .containerp h4 {
+      color: white;
+      margin-left: 30px;
+      cursor: pointer;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      grid-gap: 15px;
+      padding: 10px;
+    }
+    
+    .grid-item {
+      /* background-color: #fff; */
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.76);
+      background-color: #00000088;
+    }
+    
+    .grid-item img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .grid-item p {
+      font-size: 13px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+color: #fff;
+padding-left: 40px;
+    }
+
+
+
+    /* }
+   #container-user{
+display: inline-block;
+   }
+
+   #container-user img{
+    width: 20px;
+    border-radius: 100%;
+
+   } */
+
+   .container {
+    display: flex;
+    padding: 5px;
+     border-radius:100%;
+    
+   
+  }
+  
+  .image-container {
+    width: 25px;
+  }
+  
+  .rounded-image {
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+#username{
+  background-size: 0;
+  margin: 4px;
+  padding-left: 0;
+  color: #5664e0f8;
+ 
+}
